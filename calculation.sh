@@ -5,8 +5,9 @@ function add()
 	echo $(($1+$2))
 }
 
-function mul()
+function sub()
 {
-	echo $(($1*$2))
+        echo $(($1-$2))
 }
-result= $( mul 1 1 )
+
+result= $( sub 1 1 )
